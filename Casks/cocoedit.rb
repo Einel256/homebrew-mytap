@@ -8,6 +8,5 @@ cask "cocoedit" do
     desc "ココフォリア拡張"
     homepage "https://github.com/Einel256/cocoedit"
 
-    # targetの末尾を "cocoedit" に指定することで、このフォルダ内に解凍データがスマートに配置されます
-    artifact "cocoedit", target: "#{Dir.home}/Library/Application Support/Google/Chrome/External Extensions/cocoedit"
+    artifact "cocoedit", target: "cocoedit"
 end
