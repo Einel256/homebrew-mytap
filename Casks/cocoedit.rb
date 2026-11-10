@@ -8,5 +8,5 @@ cask "cocoedit" do
     desc "ココフォリア拡張"
     homepage "https://github.com/Einel256/cocoedit"
 
-    artifact "cocoedit", target: "cocoedit"
+    artifact "cocoedit-v1.0.1", target: "cocoedit"
 end
